@@ -1,0 +1,336 @@
+body{
+    background-color: blue;
+    width: 100%;
+    position: relative;
+    
+}
+nav{
+    height: 70px;
+     width: 95%;
+    /* margin: 40px 50px 0px 30px; */
+    display: flex;
+    justify-content: space-between;
+    position: sticky; top: 0px;
+    padding: 20px 40px;
+    z-index: 100;
+
+    
+}
+nav:hover{
+    cursor: pointer;
+}
+.left span{
+    position: relative;
+
+}
+.sn-dropdown{
+    width: 120px;
+    height: 20px;
+    color: rgb(0, 0, 0, 0.7);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    position: absolute;
+    display: none;
+}
+.left span:hover .sn-dropdown{
+       display: block; 
+       z-index: 100; 
+}
+.right{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.left{
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.left button{
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    
+
+}
+.the-product{
+    position: relative;
+}
+.product-dropdown{
+    height: 100px;
+    width: 280px;
+    background-color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px;
+    display: none;
+    color: rgb(0, 0, 0, 0.7);
+    padding: 20px;
+
+}
+.the-product:hover .product-dropdown{
+    display: block;
+    cursor: pointer;
+}
+.the-cb{
+    position: relative;
+}
+.cb-dropdown{
+    width: 120px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-left: 50px;
+    display: none;
+}
+.the-cb:hover .cb-dropdown{
+    display: block;
+}
+.body-right{
+    color: white;
+    font-size: 35px;
+    margin: 80px 0px 0px 30px;
+}
+.body-right p{
+    font-size: 20px;
+}
+.main-box{
+    display: flex;
+    gap: 100px;
+    position: relative;
+
+}
+.bl-img{
+    width: 500px;
+    height: 800px;
+
+}
+.small-box{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.sb-1{
+  position: absolute; bottom: 160px;
+  margin-left: 180px;
+  padding: 20px 30px;
+
+} 
+.sb-2{
+    position: absolute; bottom: 350px;
+  margin-left: 50px;
+  padding: 20px 30px;
+}
+.sb-3{
+    position: absolute; bottom: 270px;
+  margin-left: 130px;
+  padding: 20px 30px;
+  
+}
+.sb-3 b{
+    font-size: 30px;
+}
+.sb-2 b{
+    font-size: 30px;
+}
+.sb-1 b{
+    font-size: 30px;
+}
+.sb3-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.second-main{
+    margin: 50px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.payments-box{
+    background-color: white;
+    margin-top: 350px;
+    height: 500px;
+    width: 1400px;
+    display: flex;
+    margin-left: -820px;
+    padding: 50px 30px 30px 100px;
+    gap: 300px;
+    font-size: 20px;
+}
+.pb-1 button{
+    border: none;
+    background-color: rgb(0, 0, 255,0.9);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 170px;
+}
+.pb2-img{
+    width: 400px;
+}
+.savings-box{
+    background-color: white;
+    height: 500px;
+    width: 1400px;
+    display: flex;
+    margin-left: -820px;
+    padding: 50px 30px 30px 100px;
+    gap: 200px;
+    font-size: 20px;
+}
+.save-box1 button{
+    border: none;
+    background-color: rgb(0, 0, 255,0.9);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 170px;
+}
+.savebox2-img{
+    width: 500px;
+}
+.virtual-box{
+    background-color: white;
+    height: 600px;
+    width: 1400px;
+    display: flex;
+    margin-left: -820px;
+    padding: 50px 30px 30px 100px;
+    gap: 300px;
+    font-size: 20px;
+}
+.vb-1 button{
+     border: none;
+    background-color: rgb(0, 0, 255,0.9);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 170px;
+}
+.vb2-img{
+   width: 450PX;
+   height: 550px;
+}
+.credit-box{
+    background-color: white;
+    height: 600px;
+    width: 1400px;
+    display: flex;
+    margin-left: -820px;
+    padding: 50px 30px 30px 100px;
+    gap: 300px;
+    font-size: 20px;
+}
+.cb-1 button{
+     border: none;
+    background-color: rgb(0, 0, 255,0.9);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 170px;
+}
+.cb2-img{
+    width: 500px;
+}
+.terms{
+    background-color: white;
+    height: 60px;
+    width: 700px;
+    margin-left: -250px;
+    padding: 30px 50px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute; top: 450px;
+    z-index: 90;
+    position: fixed;
+    gap: 20px;
+}
+.terms p{
+    font-size: 15px;
+}
+.btn-1{
+    background-color: rgb(200, 200, 200);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-2{
+    background-color: rgb(0, 0, 255,0.9);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+.snd-2{
+    width: 300px;
+    height: 400px;
+    background-color: white ;
+    position: absolute;
+    margin-left: -600px;
+    margin-top: 50px;
+    display: none;
+    color: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    z-index: 100;
+} 
+.left:hover .snd-2{
+    display: block;
+}  
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 255,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snd-box2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.snd-box3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.snd-box4{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.snd-box5{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
