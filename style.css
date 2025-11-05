@@ -334,3 +334,95 @@ nav:hover{
     padding: 10px 20px;
     margin-top: 10px;
 }
+
+ .four-box{
+    display: flex;
+    width: 1510px;
+    height: 600px;
+   margin-left: -820px; 
+   justify-content: space-between;
+   background-color: white;
+   padding: 10px;
+   gap: 10px;
+ }
+.fb-1{
+   background-color: #f5efed; 
+   width: 340px;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px 20px;
+   font-size: 20px;
+
+}
+.fb-2{
+    background-color: #f5f2f7;
+    width: 340px;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px 20px;
+   font-size: 20px;
+}
+.fb-3{
+    background-color: #e8f4ff;
+    width: 340px;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px 20px;
+   font-size: 20px;
+}
+.fb-4{
+    background-color:#ebf1ff ;
+    width: 340px;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px 20px;
+   font-size: 20px;
+}
+.big-img{
+    width: 70px;
+    height: 70px;
+}
+.circ{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+}
+.lm{
+    display: flex;
+    gap: 30px;
+}
+.circ-2{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+}
+.circ-3{
+       width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+.circ-4{
+     width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+}
