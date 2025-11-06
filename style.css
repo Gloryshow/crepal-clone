@@ -426,3 +426,57 @@ nav:hover{
     display: flex;
     align-items: center;
 }
+.menu{
+    display: none;
+}
+@media (max-width:900px){
+   .left {
+    display: none;
+   }
+   .right{
+    display: none;
+   }
+   .left-button{
+    display: none;
+   }
+   .menu{
+    display: block;
+    position: relative;
+   }
+   /* .menu:hover{
+    content: url(images/material-symbols--close.svg); */
+
+   
+   .cod{
+    position: absolute;
+    display: none;
+    
+   }
+   .menu:hover .cod{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    justify-content: 50vh;
+    z-index: 100;
+    margin-left: -300px;
+    background-color: white;
+    padding: 20px;
+   }
+  
+ .terms{
+    display: none;
+ }    
+.main-box{
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    color: black;
+}
+.four-box{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+}
